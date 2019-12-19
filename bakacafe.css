@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+	font-family: montserrat, arial, verdana;
+
+  margin: 0;
+  
+}
+
+.hell{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 4.5rem;
+  }
+  
+.fell {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+  }
+  
+  button.btn{
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+ .site-title{
+    background: url('./hamburger.jpg');
+    background-size: cover;
+    height: 110vh;
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+ .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color:black;
+  }
+  
+ .site-title h1,h3{
+    margin: 1.5rem;
+  }
+  
+  .site-title .btn{
+    margin: 1.8rem;
+    background:blanchedalmond;
+  }
+  
+ .site-title .btn:hover{
+    background:transparent;
+    border: 1px solid white;
+    color:white;
+  }
+			
+.header {
+  overflow: hidden;
+  background-color:ghostwhite;
+  padding: 20px 10px;
+}
+
+.header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+	font-family: montserrat;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+          
+.image{
+    width:auto;
+    height:auto
+}
+img{
+    vertical-align:middle
+}
+a{
+    color:inherit
+}
+.text1{
+     padding: 50px 50px;
+}
+.image2{
+     padding: 10px 100px;
+}
+.color{
+    color:grey;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style:inset;
+    border-width: 1px;
+}
+ in{
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;     
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    width: 50%;
+    background-color:darkgray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color:gray;
+}
+
+table tr td span{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
